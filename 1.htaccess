@@ -1,0 +1,5 @@
+#Proteger las carpetas sin index
+Options all -Indexes
+#Redireccionar al encontrar error 403
+
+ErrorDocument 403 http://localhost/proyect/farmacia_sistema/views/admin/
